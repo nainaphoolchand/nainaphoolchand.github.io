@@ -8,7 +8,7 @@
 
 
 h1 {
-    font-family: "Arial Black";
+    font-family: "Arial Black", sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
