@@ -8,7 +8,7 @@
 
 
 h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Avenir Next", sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
@@ -24,8 +24,8 @@ h1 {
 }
 
 #line3 {
-    font-size: 6.6vw;
-    line-height: 12vw;
+    font-size: 6.74vw;
+    line-height: 12.4vw;
 }
 
 
@@ -271,6 +271,20 @@ iframe {
     text-transform: uppercase;
 }
     
+       #line1 {
+    font-size: 70px;
+    margin-right: 5px;
+}
+
+#line2 {
+    font-size: 32px;
+    line-height: 0.1;
+}
+
+#line3 {
+    font-size: 39.6px;
+    line-height: 1.8;
+}
    
     
 }
