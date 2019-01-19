@@ -38,6 +38,19 @@ h3 {
     margin: 0 2vw 4vw 2vw;
 }
 
+.imagesection p {
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 1.7vw;
+    margin-bottom: 6vw;
+    width: 80%;
+    margin: 1.7vw auto 6vw auto;
+}
+
+.imagesection span {
+   /* font-weight: bold;*/
+    text-transform: uppercase; 
+}
 
 
 .header {
@@ -96,33 +109,6 @@ a {
     margin-top: 2vw;
 }
 
-.sameProject {
-    margin: 0;
-    padding: 0; 
-    
-}
-
-#antihero {
-    margin: 0;
-    padding: 0;
- /*   top: -1vw;*/
-    position: relative;
-    border: none;
-}
-
-#sketchfab {
-    padding: 0;
-    margin: 0;
-  /*  top: -18px; */
-    position: relative;
-}
-
-#sketchfab2 {
-    padding: 0;
-    margin: 0;
-  /*  top: -18px; */
-    position: relative;
-}
 
 
 .imagesectionContainer {
@@ -135,7 +121,6 @@ a {
     */
     padding-bottom: 4vw;
     margin: 40vw 0 5vw 0;
-    
     
 }
 
@@ -176,7 +161,7 @@ iframe {
 
 .fixedFooter img {
     width: 8vw;
-    margin: 2vw;
+    margin: 2vw 2vw 2vw 0;
     float: right;
 }
 
@@ -204,10 +189,14 @@ iframe {
 }
 
 #line3 {
-    font-size: 39.6px;
+    font-size: 40.7px;
     line-height: 1.8;
 }
     
+    .imagesection p {
+        font-size: 17px;
+       /* margin: 10px auto 38px auto; */
+    }
 
     .copyright {
         font-size: 14px;
@@ -220,11 +209,12 @@ iframe {
     
 }
 
-    .fixedFooter img {
-    width: 50px;
-    margin: 13px;
+.fixedFooter img {
+    width: 40px ! important;
+    margin: 13px 13px 13px 0px ! important;
     float: right;
 }
+    
 
 .imageDiv {
     margin-top: 11px;
