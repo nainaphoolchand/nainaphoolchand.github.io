@@ -2,15 +2,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Acumin Pro", "Arial", sans-serif;
 }
 
 
+html {
+    background: #fff;
+}
+
 
 h1 {
-    font-family: "Times New Roman", serif;
+    font-family: "Battlefin", "Times New Roman", serif;
     text-align: center;
+    background-blend-mode: lighten;
     /*text-transform: uppercase;*/
+
 }
 
 #line1 {
@@ -36,7 +42,7 @@ h1 {
 }
 
 .anchor {
-    font-family: "Arial", sans-serif;
+    font-family: "acumin-pro", "Arial", sans-serif;
     font-size: 2.15vw;
     margin: 0 2.98125vw; 
 }
@@ -54,23 +60,30 @@ h3 {
     margin: 0 2vw 4vw 2vw;
 }
 
+
+
 .imagesection p {
     font-size: 3vw;
     text-align: center;
     margin-top: 1.7vw; /*1.7vw*/
-    margin-bottom: 6vw;
     width: 80%;
-    margin: 5vw auto 6vw auto;
+    margin: 8vw auto 12vw auto;
 }
 
-.imagesection span {
+.middot {
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.imageTitle {
    /* font-weight: bold;*/
-    text-transform: uppercase; 
+    /*text-transform: uppercase; */
+    font-style: italic;
 }
 
 
 .header {
-    margin-top: 5vw;
+    margin-top: 8vw;
 }
 
 .fixedHeader {
@@ -119,6 +132,7 @@ a {
     display: inline-block; */
     width: 100%;
     display: block;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .imageDiv {
@@ -136,7 +150,7 @@ a {
     overflow-y: hidden; 
     */
     padding-bottom: 4vw;
-    margin: 40vw 0 5vw 0;
+    margin: 41vw 0 5vw 0;
     
 }
 
@@ -154,10 +168,11 @@ body {
     
 }
 
-
+/*
 .firstimage {
     padding-top: 3vw;
 }
+*/
 
 
 
@@ -226,7 +241,9 @@ iframe {
     
 .imagesection p {
         font-size: 17px;
-       /* margin: 10px auto 38px auto; */
+       /* margin: 10px auto 38px auto; 
+        margin-top: 1.7vw; /*1.7vw
+        margin: 5vw auto 6vw auto; */
 }
 
     .copyright {
@@ -235,7 +252,7 @@ iframe {
     
 
 .imagesectionContainer {
-    margin: 239px 0 3px 0;
+    margin: 35vw 0 3px 0;
     
     
 }
@@ -286,7 +303,7 @@ iframe {
     }
    
     .header {
-    margin-top: 30px;
+    margin-top: 50px;
 }
     
     
@@ -296,16 +313,19 @@ iframe {
         margin: 0 auto;
 }
     
+    .imagesection p {
+        margin: 6vw auto 6vw auto;
+    }
+    
 .imagesectionContainer {
 
-    margin: 240px 0 5vw 0;
+    margin: 280px 0 5vw 0;
 
     
     
 }
     
     h1 {
-    font-family: "Times New Roman", serif;
     text-align: center;
     /*text-transform: uppercase;*/
 }
