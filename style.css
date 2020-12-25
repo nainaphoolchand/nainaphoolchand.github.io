@@ -31,13 +31,14 @@ button {
     background: none;
     border: none;
     margin: 0 auto;
-    cursor: pointer;
     outline: none;
     height: 100px;
 
 }
 
 .titleBlock {
+    cursor: pointer;
+
 }
 
 #about-me {
