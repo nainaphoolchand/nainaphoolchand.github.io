@@ -33,6 +33,13 @@ button {
     margin: 0 auto;
     cursor: pointer;
     outline: none;
+    overflow: visible;
+    height: 100px;
+
+}
+
+.titleBlock {
+    overflow: visible;
 }
 
 #about-me {
