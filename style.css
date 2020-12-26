@@ -51,7 +51,7 @@ button {
 .about-me {
     display: block;
     margin: 0 auto;
-    width: 65%;
+    width: 70%;
     margin: 12vw auto;
     text-align: center;
     background-color: antiquewhite;
@@ -284,7 +284,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-bottom: 9vw;
+    margin-bottom: 8vw;
 }
 
 .footerLinks a {
@@ -322,7 +322,7 @@ iframe {
     
     
 .about-me {
-    width: 330px;
+    width: 340px;
     margin: 60px auto;
     padding: 35px;
     box-sizing: border-box;
@@ -447,10 +447,6 @@ iframe {
 @media only screen and (min-width: 829px) {
     
     
-    
-    
-    
-    
 
     
     .imagesection {
@@ -508,7 +504,7 @@ iframe {
     /*
     width: 44%;
     margin: 8vw auto; */
-    margin-bottom: 80px;
+    margin-bottom: 40px; 
 
 }
 
