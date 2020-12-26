@@ -81,7 +81,7 @@ button {
 }
 
 .about-me div a {
-    font-size: 3vw;
+    font-size: 2.55vw;
     border-bottom: 1px solid black;
     margin: 0 1vw;
 }
@@ -341,11 +341,11 @@ iframe {
 }
 
 .about-me div {
-    margin-top: 16px;
+    margin-top: 17px;
 }
 
 .about-me div a {
-    font-size: 14px;
+    font-size: 12px;
     border-bottom: 1px solid black;
     margin: 0 7px;
 }
